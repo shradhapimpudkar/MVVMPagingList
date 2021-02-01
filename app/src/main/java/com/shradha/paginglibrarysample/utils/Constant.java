@@ -1,4 +1,4 @@
-package com.saquib.paginglibrarysample.utils;
+package com.shradha.paginglibrarysample.utils;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

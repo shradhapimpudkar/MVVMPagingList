@@ -1,4 +1,4 @@
-package com.saquib.paginglibrarysample.ui;
+package com.shradha.paginglibrarysample.ui;
 
 import android.arch.lifecycle.ViewModelProviders;
 import android.databinding.DataBindingUtil;
@@ -9,11 +9,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.view.View;
 
-import com.saquib.paginglibrarysample.MyApplication;
-import com.saquib.paginglibrarysample.R;
-import com.saquib.paginglibrarysample.databinding.PagingDemoLayoutBinding;
-import com.saquib.paginglibrarysample.utils.Constant;
-import com.saquib.paginglibrarysample.utils.ViewModelFactory;
+import com.shradha.paginglibrarysample.MyApplication;
+import com.shradha.paginglibrarysample.R;
+import com.shradha.paginglibrarysample.databinding.PagingDemoLayoutBinding;
+import com.shradha.paginglibrarysample.utils.Constant;
+import com.shradha.paginglibrarysample.utils.ViewModelFactory;
 
 import java.util.Objects;
 

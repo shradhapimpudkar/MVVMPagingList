@@ -1,9 +1,8 @@
-package com.saquib.paginglibrarysample.utils;
+package com.shradha.paginglibrarysample.utils;
 
 import com.google.gson.JsonElement;
 
 import io.reactivex.Observable;
-import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
 

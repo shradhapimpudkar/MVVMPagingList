@@ -1,10 +1,10 @@
-package com.saquib.paginglibrarysample.utils;
+package com.shradha.paginglibrarysample.utils;
 
 import android.arch.lifecycle.ViewModel;
 import android.arch.lifecycle.ViewModelProvider;
 import android.support.annotation.NonNull;
 
-import com.saquib.paginglibrarysample.ui.PagingLibViewModel;
+import com.shradha.paginglibrarysample.ui.PagingLibViewModel;
 
 import javax.inject.Inject;
 

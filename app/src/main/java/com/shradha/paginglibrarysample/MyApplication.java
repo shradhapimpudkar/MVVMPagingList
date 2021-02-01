@@ -1,12 +1,12 @@
-package com.saquib.paginglibrarysample;
+package com.shradha.paginglibrarysample;
 
 import android.app.Application;
 import android.content.Context;
 
 import com.facebook.drawee.backends.pipeline.Fresco;
-import com.saquib.paginglibrarysample.di.AppComponent;
-import com.saquib.paginglibrarysample.di.DaggerAppComponent;
-import com.saquib.paginglibrarysample.di.UtilsModule;
+import com.shradha.paginglibrarysample.di.AppComponent;
+import com.shradha.paginglibrarysample.di.DaggerAppComponent;
+import com.shradha.paginglibrarysample.di.UtilsModule;
 
 
 /**

@@ -1,4 +1,4 @@
-package com.saquib.paginglibrarysample.di;
+package com.shradha.paginglibrarysample.di;
 
 import android.arch.lifecycle.ViewModelProvider;
 
@@ -6,10 +6,10 @@ import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
-import com.saquib.paginglibrarysample.utils.ApiCallInterface;
-import com.saquib.paginglibrarysample.utils.Repository;
-import com.saquib.paginglibrarysample.utils.Urls;
-import com.saquib.paginglibrarysample.utils.ViewModelFactory;
+import com.shradha.paginglibrarysample.utils.ApiCallInterface;
+import com.shradha.paginglibrarysample.utils.Repository;
+import com.shradha.paginglibrarysample.utils.Urls;
+import com.shradha.paginglibrarysample.utils.ViewModelFactory;
 
 import java.util.concurrent.TimeUnit;
 

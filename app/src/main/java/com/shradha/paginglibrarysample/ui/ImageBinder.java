@@ -1,4 +1,4 @@
-package com.saquib.paginglibrarysample.ui;
+package com.shradha.paginglibrarysample.ui;
 
 import android.databinding.BindingAdapter;
 import android.net.Uri;

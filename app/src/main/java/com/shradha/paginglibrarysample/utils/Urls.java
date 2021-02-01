@@ -1,4 +1,4 @@
-package com.saquib.paginglibrarysample.utils;
+package com.shradha.paginglibrarysample.utils;
 
 /**
  * Created by ${Shradha} on 30-01-2021.

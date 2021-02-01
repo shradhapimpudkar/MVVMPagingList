@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.saquib.paginglibrarysample">
+    package="com.shradha.paginglibrarysample">
 
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -7,7 +7,7 @@
 
 
     <application
-        android:name=".MyApplication"
+        android:name="com.shradha.paginglibrarysample.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".ui.PagingDemoAct">
+        <activity android:name="com.shradha.paginglibrarysample.ui.PagingDemoAct">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

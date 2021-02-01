@@ -1,10 +1,10 @@
-package com.saquib.paginglibrarysample.news_datasource;
+package com.shradha.paginglibrarysample.paging_datasource;
 
 import android.arch.lifecycle.MutableLiveData;
 import android.arch.paging.DataSource;
 
-import com.saquib.paginglibrarysample.utils.DataModelClass;
-import com.saquib.paginglibrarysample.utils.Repository;
+import com.shradha.paginglibrarysample.utils.DataModelClass;
+import com.shradha.paginglibrarysample.utils.Repository;
 
 import io.reactivex.disposables.CompositeDisposable;
 

@@ -1,4 +1,4 @@
-package com.saquib.paginglibrarysample;
+package com.shradha.paginglibrarysample;
 
 import org.junit.Test;
 

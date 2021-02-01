@@ -1,4 +1,4 @@
-package com.saquib.paginglibrarysample.news_datasource;
+package com.shradha.paginglibrarysample.paging_datasource;
 
 import android.annotation.SuppressLint;
 import android.arch.lifecycle.MutableLiveData;
@@ -9,9 +9,9 @@ import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
-import com.saquib.paginglibrarysample.utils.Constant;
-import com.saquib.paginglibrarysample.utils.DataModelClass;
-import com.saquib.paginglibrarysample.utils.Repository;
+import com.shradha.paginglibrarysample.utils.Constant;
+import com.shradha.paginglibrarysample.utils.DataModelClass;
+import com.shradha.paginglibrarysample.utils.Repository;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

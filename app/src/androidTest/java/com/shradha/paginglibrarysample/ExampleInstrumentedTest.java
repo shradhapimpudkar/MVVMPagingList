@@ -1,4 +1,4 @@
-package com.saquib.paginglibrarysample;
+package com.shradha.paginglibrarysample;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

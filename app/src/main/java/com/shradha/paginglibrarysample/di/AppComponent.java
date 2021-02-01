@@ -1,7 +1,7 @@
-package com.saquib.paginglibrarysample.di;
+package com.shradha.paginglibrarysample.di;
 
 
-import com.saquib.paginglibrarysample.ui.PagingDemoAct;
+import com.shradha.paginglibrarysample.ui.PagingDemoAct;
 
 import javax.inject.Singleton;
 

@@ -1,4 +1,4 @@
-package com.saquib.paginglibrarysample.utils;
+package com.shradha.paginglibrarysample.utils;
 
 import com.google.gson.JsonElement;
 

@@ -1,4 +1,4 @@
-package com.saquib.paginglibrarysample.ui;
+package com.shradha.paginglibrarysample.ui;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
@@ -7,11 +7,11 @@ import android.arch.lifecycle.ViewModel;
 import android.arch.paging.LivePagedListBuilder;
 import android.arch.paging.PagedList;
 
-import com.saquib.paginglibrarysample.news_datasource.PagingDataSourceClass;
-import com.saquib.paginglibrarysample.news_datasource.PagingDataSourceFactory;
-import com.saquib.paginglibrarysample.utils.Constant;
-import com.saquib.paginglibrarysample.utils.DataModelClass;
-import com.saquib.paginglibrarysample.utils.Repository;
+import com.shradha.paginglibrarysample.paging_datasource.PagingDataSourceClass;
+import com.shradha.paginglibrarysample.paging_datasource.PagingDataSourceFactory;
+import com.shradha.paginglibrarysample.utils.Constant;
+import com.shradha.paginglibrarysample.utils.DataModelClass;
+import com.shradha.paginglibrarysample.utils.Repository;
 
 import io.reactivex.disposables.CompositeDisposable;
 

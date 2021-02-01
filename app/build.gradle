@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.saquib.paginglibrarysample"
+        applicationId "com.shradha.paginglibrarysample"
         minSdkVersion 16
         targetSdkVersion 27
         versionCode 1
@@ -49,8 +49,8 @@ dependencies {
     implementation 'javax.inject:javax.inject:1'
 
     /*Retrofit lib*/
-    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
-    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.8.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.8.1'
 
     /*RxJava lib*/
     implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'

@@ -1,4 +1,4 @@
-package com.saquib.paginglibrarysample.utils;
+package com.shradha.paginglibrarysample.utils;
 
 import android.support.annotation.NonNull;
 import android.support.v7.util.DiffUtil;

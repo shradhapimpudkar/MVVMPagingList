@@ -1,4 +1,4 @@
-package com.saquib.paginglibrarysample.ui;
+package com.shradha.paginglibrarysample.ui;
 
 import android.arch.paging.PagedListAdapter;
 import android.databinding.DataBindingUtil;
@@ -7,9 +7,9 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
-import com.saquib.paginglibrarysample.R;
-import com.saquib.paginglibrarysample.databinding.RowPagingLayoutBinding;
-import com.saquib.paginglibrarysample.utils.DataModelClass;
+import com.shradha.paginglibrarysample.R;
+import com.shradha.paginglibrarysample.databinding.RowPagingLayoutBinding;
+import com.shradha.paginglibrarysample.utils.DataModelClass;
 
 /**
  * Created by ${Shradha} on 30-01-2021.

@@ -13,8 +13,8 @@ public class Constant {
     public final static String LOADING = "Loading";
     public final static String LOADED = "Loaded";
     public final static String CHECK_NETWORK_ERROR = "Check your network connection.";
-    public final static String API_KEY = "https://newsapi.org/docs";//put your api_key generate it from "https://newsapi.org/docs"
-    public static final String sources[] = {"bbc-news", "abc-news-au", "bloomberg", "cnbc"};
+   // public final static String API_KEY = "https://newsapi.org/docs";//put your api_key generate it from "https://newsapi.org/docs"
+    //public static final String sources[] = {"bbc-news", "abc-news-au", "bloomberg", "cnbc"};
 
     // the size of a page that we want
     public static final int PAGE_SIZE = 5;

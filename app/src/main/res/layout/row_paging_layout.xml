@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    app:ignore="NamespaceTypo">
+
+    <data>
+
+        <variable
+            name="model"
+            type="com.saquib.paginglibrarysample.utils.DataModelClass" />
+    </data>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_10">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/img"
+            android:layout_width="@dimen/dimen_80"
+            android:layout_height="@dimen/dimen_100"
+            app:imageURL="@{model.avatar}"
+            fresco:roundAsCircle="true" />
+
+        <LinearLayout
+            android:layout_toRightOf="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toEndOf="@+id/img">
+
+            <TextView
+                android:id="@+id/tvid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_10"
+                android:layout_marginLeft="@dimen/dimen_10"
+                android:text="@{model.id}"
+                android:textSize="@dimen/dimen_16" />
+
+            <TextView
+                android:id="@+id/tvemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_10"
+                android:layout_marginLeft="@dimen/dimen_10"
+                android:text="@{model.email}"
+                android:textSize="@dimen/dimen_16" />
+
+            <TextView
+                android:id="@+id/tvfirst_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_10"
+                android:layout_marginLeft="@dimen/dimen_10"
+                android:text="@{model.first_name}"
+                android:textSize="@dimen/dimen_16" />
+
+            <TextView
+                android:id="@+id/tvlast_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_10"
+                android:layout_marginLeft="@dimen/dimen_10"
+                android:text="@{model.last_name}"
+                android:textSize="@dimen/dimen_16" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</layout>
